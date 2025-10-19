@@ -2,6 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
 
+:root{
+    --primary-color: hsl(0, 0%, 100%);
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -21,7 +26,7 @@ body{
 /* Contenedor principal */
 .container{
     display: flex;
-    background-color: hsl(0, 0%, 100%);
+    background-color: var(--primary-color);
     border-radius: 10px;
     overflow: hidden;
     max-width: 525px;
@@ -95,7 +100,7 @@ body{
     cursor: pointer;
     border: none;
     padding: 0.75rem;
-    color: hsl(0, 0%, 100%);
+    color: var(--primary-color);
     background-color: hsl(158, 36%, 37%);
     border-radius: 10px;
     font-weight: 700;
